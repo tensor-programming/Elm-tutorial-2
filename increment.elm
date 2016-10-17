@@ -4,9 +4,12 @@ import Html exposing (..)
 import Html.Events exposing (..)
 import Html.App as App
 
-
+--main function
 main =
-    App.beginnerProgram { view = view, model = model, update = update }
+    App.beginnerProgram { view = view
+                        , model = model
+                        , update = update 
+                        }
 
 
 
